@@ -1,0 +1,30 @@
+{
+  "name": "lucifer-verify",
+  "version": "1.0.0",
+  "description": "command-line tool to verify posts on luciferzero.org",
+  "main": "lucifer-verify.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "lucifer-verify": "bin/lucifer-verify"
+  },
+  "author": "luciferzer0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luciferzer0/lucifer-verify.git"
+  },
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "commander": "^2.9.0",
+    "entities": "^1.1.1",
+    "request": "^2.79.0",
+    "striptags": "^2.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
